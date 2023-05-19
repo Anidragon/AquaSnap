@@ -1,6 +1,7 @@
 import pygame
 Window = pygame.display.set_mode((1100, 500), pygame.RESIZABLE)
-
+screenIcon = pygame.image.load('AquaSnapIcon.png')
+pygame.display.set_icon(screenIcon)
 def main():
     run = True
     while run:
