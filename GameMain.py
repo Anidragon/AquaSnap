@@ -27,7 +27,7 @@ class Player(pygame.sprite.Sprite):
     def stopAnimate(self):
         self.is_animating = False
     def update(self):
-        if self.is_animating ==True:
+        if self.is_animating == True:
             self.current_sprite += 1
 
             if self.current_sprite >= len(self.sprites):
