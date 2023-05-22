@@ -76,6 +76,8 @@ def main():
                 player.animate()
             if(event.type == pygame.KEYUP):
                 player.stopAnimate()
+                player.remove(moving_sprites)
+                
 
             mouse = pygame.mouse.get_pos()
         pygame.display.update()
